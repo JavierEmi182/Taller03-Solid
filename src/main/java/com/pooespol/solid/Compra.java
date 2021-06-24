@@ -11,7 +11,7 @@ import java.util.List;
  *
  * @author Javier
  */
-public class Compra {
+public class Compra implements ItemsManagement {
     
     private Pago pago;
     private PagoPayPal pagoPayPal;
@@ -25,11 +25,24 @@ public class Compra {
         //inicializaciones
     }
     
-    public void agregarArticulo(Articulo articulo){
+    /*public void agregarArticulo(Articulo articulo){
         
     }
     
     public void removerArticulo(Articulo articulo){
         
+    }*/
+
+    @Override
+    public void agregarArticulo() {
+        //agrega un articulo
     }
+
+    @Override
+    public void removerArticulo() {
+        //remueve un articulo
+    }
+    
+    //Se creo un interface ItemsManagement para despues implementarlo en la clase, cumpliendo el ISP
+    
 }
