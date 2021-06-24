@@ -9,7 +9,7 @@ package com.pooespol.solid;
  *
  * @author Javier
  */
-public class PagoPayPal extends Pago {
+public class PagoPayPal implements Pagos {
     private boolean loggedIn;
     
     @Override

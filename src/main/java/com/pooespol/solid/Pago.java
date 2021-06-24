@@ -11,9 +11,9 @@ package com.pooespol.solid;
  */
 public class Pago {
     
-    public void realizarCobro(double monto){
+    /*public void realizarCobro(double monto){
         //carga monto al metodo de pago
-    }
+    }*/
     
     /*public void calcularImpuestosFactura(){
         //calcula impuestos asociados a la compra
