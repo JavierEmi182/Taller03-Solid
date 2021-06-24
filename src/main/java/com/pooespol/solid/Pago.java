@@ -14,6 +14,7 @@ public class Pago {
     /*public void realizarCobro(double monto){
         //carga monto al metodo de pago
     }*/
+    //se creo una interfaz para realizar los cobros
     
     /*public void calcularImpuestosFactura(){
         //calcula impuestos asociados a la compra
