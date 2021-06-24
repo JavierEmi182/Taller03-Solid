@@ -13,17 +13,15 @@ import java.util.List;
  */
 public class Compra implements ItemsManagement {
     
-    private Pago pago;
-    private PagoPayPal pagoPayPal;
+    //private Pago pago;
+    //private PagoPayPal pagoPayPal;
+    private Pagos Pago;
     private List articulos;
-    
-    public Compra(Pago pago){
-        //inicializaciones
+
+    public Compra(Pagos pago){
+        //inicializacion      
     }
-    
-    public Compra(PagoPayPal pagoPayPal){
-        //inicializaciones
-    }
+    //El constructor acepta cualquier tipo de pago
     
     /*public void agregarArticulo(Articulo articulo){
         

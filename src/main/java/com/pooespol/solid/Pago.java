@@ -9,7 +9,12 @@ package com.pooespol.solid;
  *
  * @author Javier
  */
-public class Pago {
+public class Pago implements Pagos{
+
+    @Override
+    public void realizarCobro(double monto) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     /*public void realizarCobro(double monto){
         //carga monto al metodo de pago

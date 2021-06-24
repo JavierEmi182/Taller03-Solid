@@ -12,8 +12,7 @@ package com.pooespol.solid;
 public interface ItemsManagement {
     
     public void agregarArticulo();
-        
-    
+           
     
     public void removerArticulo();
         
