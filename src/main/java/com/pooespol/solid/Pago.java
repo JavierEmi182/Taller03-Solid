@@ -15,13 +15,15 @@ public class Pago {
         //carga monto al metodo de pago
     }
     
-    public void calcularImpuestosFactura(){
+    /*public void calcularImpuestosFactura(){
         //calcula impuestos asociados a la compra
     }
     
     public void generarFactura(){
         //genera nueva factura
-    }
+    }*/
     
+   //La clase pago solo debe cumplir una funcion, asi cumpliendo el SRP. 
+    //Se crearon 2 clases que desempeñan los metodos comentados.
 
 }
